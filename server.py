@@ -63,9 +63,6 @@ def solveData(data, pool, sock):
             except:
                 pass
 
-
-
-
 def solve(sock, addr, pool):
     while True:
         data = sock.recv(2300)
